@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/YourOrg/your-repo.git'
+    repoURL: 'https://github.com/diogoazevedo15/home-lab.git'
     targetRevision: 'main'
     path: 'infrastructure/cluster-issuer'
     directory:
