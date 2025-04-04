@@ -4,4 +4,4 @@ resources:
 - base/argocd-ingressroute.yaml
 
 patches:
-- path: overlays/argocd-cmd-params-cm
+- path: overlays/argocd-cmd-params-cm.yaml
