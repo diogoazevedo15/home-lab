@@ -4,4 +4,4 @@ metadata:
   name: ca-clusterissuer
 spec:
   ca:
-    secretName: my-ca-secret
+    secretName: ca-secret
