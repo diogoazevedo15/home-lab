@@ -3,3 +3,4 @@ kind: Kustomization
 
 resources:
   - base/cluster-issuer.yaml
+  - base/cluster-issuer-secrets.yaml
