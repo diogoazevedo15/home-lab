@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: locust
-        image: locustio/locust:2.33.2
+        image: locustio/locust:latest
         ports:
           - containerPort: 8089
