@@ -1,0 +1,12 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: locust-cert
+  namespace: locust
+spec:
+  secretName: locust-cert
+  issuerRef:
+    name: ca-clusterissuer
+    kind: ClusterIssuer
+  dnsNames:
+    - diogo.homelab.locust

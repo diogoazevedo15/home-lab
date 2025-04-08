@@ -1,0 +1,15 @@
+apiVersion: traefik.containo.us/v1alpha1
+kind: IngressRoute
+metadata:
+  name: locust
+  labels:
+    app: locust
+spec:
+  entryPoints:
+    - websecure
+  routes:
+    - match: Host(`diogo.homelab.locust`)
+      kind: Rule
+      services:
+        - name: locust
+          port: 80
