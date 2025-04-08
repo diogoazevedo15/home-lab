@@ -3,6 +3,6 @@ kind: Kustomization
 
 # List all base manifests here
 resources:
-  - deployment.yaml
-  - service.yaml
-  - ingressroute.yaml
+  - base/deployment.yaml
+  - base/service.yaml
+  - base/ingressroute.yaml
